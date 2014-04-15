@@ -2,7 +2,7 @@
 <!DOCTYPE boostbook PUBLIC "-//Boost//DTD BoostBook XML V1.0//EN"
   "http://www.boost.org/tools/boostbook/dtd/boostbook.dtd">
 <boostbook id="boost" xmlns:xi="http://www.w3.org/2001/XInclude"
-           last-revision="$Date: 2013-05-20 21:51:00 -0700 (Mon, 20 May 2013) $">
+           last-revision="$Date: 2013-10-08 14:01:18 -0700 (Tue, 08 Oct 2013) $">
   <title>The Boost C++ Libraries BoostBook Documentation Subset</title>
 
   <preface id="about">
@@ -98,17 +98,7 @@
 
    <xi:include href="chrono.xml"/>
 
-   <library name="Circular Buffer" dirname="circular_buffer" html-only="1"
-            url="../../libs/circular_buffer/index.html">
-     <libraryinfo>
-       <author>
-         <firstname>Jan</firstname>
-         <surname>Gaspar</surname>
-       </author>
-       <librarypurpose>A STL compliant container also known as ring or cyclic buffer</librarypurpose>
-       <librarycategory name="category:containers"/> 
-     </libraryinfo>
-   </library>
+   <xi:include href="circular_buffer.auto_index.docbook"/>
 
    <library name="Compatibility" dirname="compatibility" html-only="1">
      <libraryinfo>
@@ -771,6 +761,8 @@
     <xi:include href="../../tools/build/v2/doc/src/userman.xml"/>
   </part>
 </boostbook>
+
+
 
 
 

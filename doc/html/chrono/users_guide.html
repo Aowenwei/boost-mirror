@@ -84,8 +84,7 @@
         </p>
 <p>
           Boost.System has un undocumented feature (use of macro BOOST_ERROR_CODE_HEADER_ONLY)
-          to make it header only, but it is buggy (see <a href="http://svn.boost.org/trac/boost/ticket/7347" target="_top">#7347</a>
-          duplicate symbol while BOOST_ERROR_CODE_HEADER_ONLY is defined)
+          to make it header only.
         </p>
 <p>
           If <a class="link" href="reference.html#chrono.reference.cpp0x.chrono_chrono_hpp.conf.header_only" title="How to Build Boost.Chrono as a Header Only Library?"><code class="computeroutput"><span class="identifier">BOOST_CHRONO_HEADER_ONLY</span></code></a> is not
@@ -214,6 +213,12 @@
 <li class="listitem">
               GCC 4.6.0 -std=c++0x
             </li>
+<li class="listitem">
+              GCC 4.8.0
+            </li>
+<li class="listitem">
+              GCC 4.8.0 -std=c++0x
+            </li>
 </ul></div>
 <p>
           Ubuntu with * GCC 4.4.6 * GCC 4.4.6 -std=c++0x * GCC 4.5.4 * GCC 4.5.4
@@ -246,34 +251,31 @@
               GCC 4.7.1 -std=c++0x
             </li>
 <li class="listitem">
-              clang 1.6
+              GCC 4.7.2
             </li>
 <li class="listitem">
-              clang 2.9
+              GCC 4.7.2 -std=c++0x
             </li>
 <li class="listitem">
-              clang 2.9 -std=c++0x
+              GCC 4.8.0
             </li>
 <li class="listitem">
-              clang 3.0
+              GCC 4.8.0 -std=c++0x
             </li>
 <li class="listitem">
-              clang 3.0 -std=c++0x
+              GCC 4.8.1
+            </li>
+<li class="listitem">
+              GCC 4.8.1 -std=c++0x
             </li>
 <li class="listitem">
               clang 3.1
-            </li>
-<li class="listitem">
-              clang 3.1 -std=c++0x
             </li>
 <li class="listitem">
               clang 3.1 -std=c++0x -stdlib=libc++
             </li>
 <li class="listitem">
               clang 3.2
-            </li>
-<li class="listitem">
-              clang 3.2 -std=c++11
             </li>
 <li class="listitem">
               clang 3.2 -std=c++11 -stdlib=libc++
